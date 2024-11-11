@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+int n;
+cin>>n;
+if(n<1||n>30){
+    cout<<"So "<<n<<" khong nam trong khoang [1,30]";
+}
+else if(n==1||n==2){
+   cout<<1; 
+}
+else{
+    int a = 0;
+    int b = 1;
+    int x = 1;
+    for(int i=2;i<n;i++){
+    a = b;
+    b = x;
+    x = a + b;
+} cout<<x;
+}
+}
