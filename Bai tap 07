@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+int main (){ 
+unsigned long long n;
+double y = 0;
+double z = 0, z1 = 1;
+double t = 0, t1 = 0;
+cin>>n;
+for(unsigned long long i =1;i<=n;i++){
+y+=pow(i,i);
+z1*=i;
+z+=z1;
+t1+=i;
+t+=1/t1;
+}
+cout<<y<<endl;
+cout<<z<<endl;
+cout<<t<<endl;
+	return 0;
+}
