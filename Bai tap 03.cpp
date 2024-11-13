@@ -13,7 +13,7 @@ if(n<1||n>30){
 else{
 
 if(n == 1 || n==2){
-	x=1;
+x=1;
 }else{
     for(int i=2;i<n;i++){
     a = b;
