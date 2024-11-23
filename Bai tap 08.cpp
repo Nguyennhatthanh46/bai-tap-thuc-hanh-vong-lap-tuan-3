@@ -2,7 +2,7 @@
 Viết chương trình tính 3 tổng sau:
 S1(n,x) = 1 + x + x^2 + x^3 + ... x^n.
 S2(n,x) = 1 + x^2 + x^4 + x^6 + ... x^2n.
-S2(n,x) = 1 + x + x^2/2! + x^3/3! + ... x^n/n!.
+S3(n,x) = 1 + x + x^2/2! + x^3/3! + ... x^n/n!.
 
 INPUT
  2 số nguyên dương n,x ≥ 0.
